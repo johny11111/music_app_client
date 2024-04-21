@@ -4,7 +4,7 @@ import axios from "axios";
 
 
 
-const baseUrl = "http://localhost:4001/";
+const baseUrl = "https://music-app-server-9pcw.onrender.com/";
 
 
 
