@@ -1,0 +1,19 @@
+.containerApp {
+    height: auto;
+    max-width: 100dvw;
+    max-height: 100dvh;
+
+}
+
+.flex {
+    display: flex;
+    gap: 1rem;
+}
+
+
+
+/* .loading a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+} */

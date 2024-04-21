@@ -1,0 +1,16 @@
+.containerAlbums {
+    padding-top: 2rem;
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+    width: 100vw;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    justify-content: space-evenly;
+    height: 75lvh;
+}
+
+.containerAlbums p {
+    display: flex;
+    color: black;
+}

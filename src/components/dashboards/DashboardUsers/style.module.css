@@ -1,0 +1,65 @@
+.containerUsers{
+    max-width: 90lvw;
+    max-height: 75lvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.containerTable {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    background: transparent;
+    border: 1px solid #709ae7;
+    border-radius: 1rem;
+    overflow-x: auto;
+}
+
+.containerTable table {
+
+    max-width: 100%;
+    max-height: 50lvh;
+    border-collapse: collapse;
+    padding-top: 1rem;
+}
+
+/* .containerCard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+} */
+
+.containerTable table th,
+.containerTable table td {
+    padding: 0.5rem;
+    text-align: center;
+
+    border: 1px solid #709ae7;
+}
+
+.containerTable table thead th {
+    padding-top: 1rem;
+    background-color: #709ae7;
+}
+
+.count {
+    padding: 1rem;
+}
+
+/* סגנון למסך ברוחב של עד 600px */
+@media screen and (max-width: 600px) {
+
+    .containerTable table th,
+    .containerTable table td {
+        padding: 0.2rem;
+        font-size: 0.8rem;
+    }
+
+    .count {
+        font-size: 0.8rem;
+    }
+}
